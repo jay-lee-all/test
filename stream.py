@@ -54,7 +54,7 @@ def process_chatbot_data(df, include_types=['bot', 'agent', 'user'], start_date=
 
 # Streamlit UI
 
-st.title('Chatbot Conversation Data Processor')
+st.title('Chatbot Data Processor')
 
 # File uploader
 uploaded_file = st.file_uploader("Upload your Excel file", type=['xlsx'])
